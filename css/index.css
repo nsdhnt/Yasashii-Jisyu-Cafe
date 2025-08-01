@@ -1,0 +1,217 @@
+*{
+    margin:0;
+    padding:0;
+    font-size:100%;
+}
+body{
+    font-family:"筑紫B丸ゴシック",sans-serif;
+    color:#FFF;
+    font-size:18px;
+    background-color:#0A3302;
+}
+#header{
+    background-color:#FFF;
+    height:100px;
+}
+#header img{
+    width:260px;
+    height:64px;
+    padding:10px 10px 0 10px;
+}
+#nav{
+    position:relative;
+}
+#g_Navi{
+    display:flex;
+    list-style:none;
+    text-align:right;
+    position:absolute;
+    top
+    right
+    margin-top:0;
+}
+li{
+    text-align:right;
+}
+#main{
+    background-color:#0A3302;
+    padding:10px;
+    width:1000px;
+    margin-right:auto;
+    margin-left:auto;
+}
+#head{
+    font-size:32px;
+    padding-left:20px;
+    position:relative;
+}
+.sentence{
+    padding:20px;
+}
+
+
+#concept_Wrap{
+    border:solid 3px #F2FF00;
+    border-radius: 30px;
+    margin-top:60px;
+}
+.concept{
+    color:#F2FF00;
+}
+#concept_image{
+    display:flex;
+    padding-right:;
+    padding-left:60px;
+}
+#detail_concept{
+    text-align:center;
+    font-weight:bold;
+}
+.button_concept{
+  background-color:#F2FF00;
+  border: solid 2px #F2FF00;
+  color: #000;
+  border-radius: 30px;
+  padding: 10px 40px;
+  text-decoration: none;
+  font-size: 18px;
+  box-shadow: 0 3px 0 #9DA500;
+  display: inline-block;
+  transition: .3s;
+  margin:30px;
+}
+.button_concept:hover {
+  color: #000;
+  transform: translateY(3px);
+  box-shadow: 0 0 0 #191970;
+}
+
+
+
+#menu_Wrap{
+    border:solid 3px #FF73CE;
+    border-radius: 30px;
+    margin-top:60px;
+}
+
+.menu{
+    color:#FF73CE;
+}
+#detail_menu{
+    text-align:center;
+    font-weight:bold;
+}
+.button_menu{
+  background-color:#FF73CE;
+  border: solid 2px #FF73CE;
+  color: #000;
+  border-radius: 30px;
+  padding: 10px 40px;
+  text-decoration: none;
+  font-size: 18px;
+  box-shadow: 0 3px 0 #A04781;
+  display: inline-block;
+  transition: .3s;
+  margin:30px;
+}
+.button_menu:hover {
+  color: #000;
+  transform: translateY(3px);
+  box-shadow: 0 0 0 #191970;
+}
+
+
+
+#usage_Wrap{
+    border:solid 3px #71AFFF;
+    border-radius: 30px;
+    margin-top:60px;
+}
+.usage{
+    color:#71AFFF;
+}
+#detail_usage{
+    text-align:center;
+    font-weight:bold;
+}
+.button_usage{
+  background-color: #71AFFF;
+  border: solid 2px #71AFFF;
+  color: #000;
+  border-radius: 30px;
+  padding: 10px 40px;
+  text-decoration: none;
+  font-size: 18px;
+  box-shadow: 0 3px 0 #456998;
+  display: inline-block;
+  transition: .3s;
+  margin:30px;
+}
+.button_usage:hover {
+  color: #000;
+  transform: translateY(3px);
+  box-shadow: 0 0 0 #191970;
+}
+
+
+
+
+#news_Wrap{
+    border:solid 3px #FF9100;
+    border-radius: 30px;
+    margin-top:60px;
+}
+.news{
+    color:#FF9100;
+}
+#detail_news{
+    text-align:center;
+    font-weight:bold;
+}
+#news_content{
+    padding:20px;
+}
+.button_news{
+  background-color: #FF9100;
+  border: solid 2px #FF9100;
+  color: #000;
+  border-radius: 30px;
+  padding: 10px 40px;
+  text-decoration: none;
+  font-size: 18px;
+  box-shadow: 0 3px 0 #8F470D;
+  display: inline-block;
+  transition: .3s;
+  margin:30px;
+}
+.button_news:hover {
+  color: #000;
+  transform: translateY(3px);
+  box-shadow: 0 0 0 #191970;
+}
+
+
+
+#shop_Wrap{
+    border:solid 3px #FF5252;
+    border-radius: 30px;
+    margin-top:60px;
+    margin-bottom:60px;
+}
+.shop{
+    color:#FF5252;
+}
+#shop_sentence{
+    padding:20px;
+}
+#shop_sentence p{
+    padding-bottom:20px;
+}
+
+#footer{
+    background-color:#572900;
+}
+#footer p{
+    text-align:center;
+    line-height:140px;
+}
