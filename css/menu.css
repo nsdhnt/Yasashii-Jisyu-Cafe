@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+    font-size:100%;
+}
+body{
+    font-family:"筑紫B丸ゴシック",sans-serif;
+    color:#FFF;
+    font-size:18px;
+    background-color:#0A3302;
+}
+#header{
+    background-color:#FFF;
+    height:100px;
+}
+#g_Navi{
+    display:flex;
+    list-style:none;
+    text-align:right;
+}
+li{
+    text-align:right;
+}
+#main{
+    background-color:#0A3302;
+    padding:10px;
+    width:1000px;
+    margin-right:auto;
+    margin-left:auto;
+}
+.sentence{
+    padding:20px;
+}
+
+
+
+#footer{
+    background-color:#572900;
+}
+#footer p{
+    text-align:center;
+    line-height:140px;
+}
