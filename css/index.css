@@ -11,34 +11,141 @@ body{
 }
 #header{
     background-color:#FFF;
+    width:100%;
     height:100px;
+    display:flex;
+    gap:50px;
+    margin-top:-100px;
+    position:fixed;
+    border:solid 1px tomato;
 }
 #header img{
     width:260px;
     height:64px;
     padding:10px 10px 0 10px;
-}
-#nav{
-    position:relative;
+    border:solid 1px tomato;
+    margin-top:auto;
+    margin-bottom:auto;
 }
 #g_Navi{
     display:flex;
     list-style:none;
     text-align:right;
-    position:absolute;
-    top
-    right
-    margin-top:0;
+    gap:10px;
+    height:30px;
+    margin-top:auto;
+    margin-bottom:auto;
+    border:solid 1px tomato;
 }
 li{
     text-align:right;
 }
+.nav_concept{
+  background-color:#F2FF00;
+  border: solid 2px #F2FF00;
+  color: #000;
+  padding: 2px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  box-shadow: 0 3px 0 #9DA500;
+  display: inline-block;
+  transition: .3s;
+  margin-top:auto;
+  margin-bottom:auto;
+  border:solid 1px tomato;
+}
+.nav_concept:hover {
+  color: #000;
+  transform: translateY(3px);
+  box-shadow: 0 0 0 #191970;
+}
+.nav_menu{
+  background-color:#FF73CE;
+  border: solid 2px #FF73CE;
+  color: #000;
+  padding: 2px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  box-shadow: 0 3px 0 #A04781;
+  display: inline-block;
+  transition: .3s;
+  margin-top:auto;
+  margin-bottom:auto;
+  border:solid 1px tomato;
+}
+.nav_menu:hover {
+  color: #000;
+  transform: translateY(3px);
+  box-shadow: 0 0 0 #191970;
+}
+.nav_usage{
+  background-color:#71AFFF;
+  border: solid 2px #71AFFF;
+  color: #000;
+  padding: 2px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  box-shadow: 0 3px 0 #456998;
+  display: inline-block;
+  transition: .3s;
+  margin-top:auto;
+  margin-bottom:auto;
+  border:solid 1px tomato;
+}
+.nav_usage:hover {
+  color: #000;
+  transform: translateY(3px);
+  box-shadow: 0 0 0 #191970;
+}
+.nav_news{
+  background-color:#FF9100;
+  border: solid 2px #FF9100;
+  color: #000;
+  padding: 2px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  box-shadow: 0 3px 0 #8F470D;
+  display: inline-block;
+  transition: .3s;
+  margin-top:auto;
+  margin-bottom:auto;
+  border:solid 1px tomato;
+}
+.nav_news:hover {
+  color: #000;
+  transform: translateY(3px);
+  box-shadow: 0 0 0 #191970;
+}
+.nav_shop{
+  background-color:#FF5252;
+  border: solid 2px #FF5252;
+  color: #000;
+  padding: 2px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  box-shadow: 0 3px 0 #983030;
+  display: inline-block;
+  transition: .3s;
+  margin-top:auto;
+  margin-bottom:auto;
+  border:solid 1px tomato;
+}
+.nav_shop:hover {
+  color: #000;
+  transform: translateY(3px);
+  box-shadow: 0 0 0 #191970;
+}
+
+
+
 #main{
     background-color:#0A3302;
     padding:10px;
     width:1000px;
     margin-right:auto;
     margin-left:auto;
+    margin-top:100px;
+    border:solid 1px tomato;
 }
 #head{
     font-size:32px;
@@ -47,6 +154,7 @@ li{
 }
 .sentence{
     padding:20px;
+    border:solid 1px tomato;
 }
 
 
@@ -55,8 +163,13 @@ li{
     border-radius: 30px;
     margin-top:60px;
 }
-.concept{
+.conceptTitle{
     color:#F2FF00;
+    margin-left:20px;
+    text-align:left;
+    width:400px;
+    background:#0A3302;
+    margin-top:-27px;
 }
 #concept_image{
     display:flex;
@@ -94,8 +207,16 @@ li{
     margin-top:60px;
 }
 
-.menu{
+.menuTitle{
     color:#FF73CE;
+    margin-left:20px;
+    text-align:left;
+    width:144px;
+    background:#0A3302;
+    margin-top:-27px;
+}
+#menu_content{
+    display:flex;
 }
 #detail_menu{
     text-align:center;
@@ -127,8 +248,16 @@ li{
     border-radius: 30px;
     margin-top:60px;
 }
-.usage{
+.usageTitle{
     color:#71AFFF;
+    margin-left:20px;
+    text-align:left;
+    width:210px;
+    background:#0A3302;
+    margin-top:-27px;
+}
+#usage_content{
+  display:flex;
 }
 #detail_usage{
     text-align:center;
@@ -161,8 +290,13 @@ li{
     border-radius: 30px;
     margin-top:60px;
 }
-.news{
+.newsTitle{
     color:#FF9100;
+    margin-left:20px;
+    text-align:left;
+    width:102px;
+    background:#0A3302;
+    margin-top:-27px;
 }
 #detail_news{
     text-align:center;
@@ -198,8 +332,13 @@ li{
     margin-top:60px;
     margin-bottom:60px;
 }
-.shop{
+.shopTitle{
     color:#FF5252;
+    margin-left:20px;
+    text-align:left;
+    width:148px;
+    background:#0A3302;
+    margin-top:-27px;
 }
 #shop_sentence{
     padding:20px;
